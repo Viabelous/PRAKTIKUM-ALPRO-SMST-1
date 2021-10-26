@@ -16,6 +16,7 @@ Berat = "Belum ada data"
 
 while x == 0:
     Statuses = {"Nama":Nama,"NIM":NIM,"Prodi":Prodi,"Fakultas":Fakultas,"Tinggi":Tinggi,"Berat":Berat}
+    _ = system('')
 
     print("Data Mahasiswa:")
     if Nama == "Belum ada data":
