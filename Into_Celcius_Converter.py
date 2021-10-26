@@ -18,10 +18,10 @@ while loof == 1:
         print("Selamat Datang Kembali!")
 
     print("""Berikut converter yang kami sediakan:
-    [1] Fahrenheit ke Celsius
+    \033[0;33;40m[1] Fahrenheit ke Celsius
     [2] Kelvin ke Celsius
     [3] Reamur ke Celsius
-    [4] Suhu tanpa nama ke Celsius""")
+    [4] Suhu tanpa nama ke Celsius\033[0;37;40m""")
     print('"tips: Cukup ketik angka di depan pilihan"\n')
 
     MyChoice = str(input("Pilihan Saya: "))
