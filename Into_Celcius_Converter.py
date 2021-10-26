@@ -11,6 +11,7 @@ x = 0
 loof = 1
 
 while loof == 1:
+    _ = system('')
     if x==0:
         print("""Selamat Datang!""")
         x = 1
